@@ -1,0 +1,21 @@
+<mat-card class="example-card" *ngFor="let candidate of Allcandidate">
+    <mat-card-header>
+        <mat-card-title>{{candidate.name}}</mat-card-title>
+        <mat-card-subtitle>{{candidate.email}}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+        <p>
+            Candidate Id: {{candidate.id}}
+        </p>
+        <p>
+            phone: {{candidate.phone}}
+        </p>
+        <p>
+            website: {{candidate.website}}
+        </p>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-raised-button color="accent" (click)="onShortlis()"
+        >Shortlist</button>
+    </mat-card-actions>
+</mat-card>

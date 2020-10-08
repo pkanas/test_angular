@@ -1,0 +1,7 @@
+.example-card {
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+  }
